@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0px;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+}

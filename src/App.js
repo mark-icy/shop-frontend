@@ -1,11 +1,13 @@
 import Header from "./Header.js";
+import "./App.css";
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <h1>lol</h1>
-      <Header/>
-    </div>
+	<div className="wrapper">
+		<div className="App">
+      			<Header/>
+    		</div>
+	</div>
   );
 }
 
