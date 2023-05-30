@@ -6,10 +6,11 @@ function App(){
 	<div className="wrapper">
 		<div className="App">
       			<Header/>
-            <div>mark</div>
+            <div><img className="banner" src="/banner.jpg" alt="banner image"/></div>
     		</div>
 	</div>
   );
 }
+
 
 export default App;
