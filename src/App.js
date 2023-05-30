@@ -6,6 +6,7 @@ function App(){
 	<div className="wrapper">
 		<div className="App">
       			<Header/>
+            <div>mark</div>
     		</div>
 	</div>
   );
