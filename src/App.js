@@ -1,6 +1,7 @@
 import Header from "./Header.js";
 import "./App.css";
 import Item from "./Item.js";
+import Footer from "./Footer.js";
 
 function App(){
   return (
@@ -15,8 +16,8 @@ function App(){
                 <Item/>
                 <Item/>
                 <Item/>
-    
             </div>
+            <Footer/>
     		</div>
 	</div>
   );
