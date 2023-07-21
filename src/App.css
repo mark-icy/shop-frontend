@@ -1,36 +1,14 @@
 body {
 	margin: 0;
 }
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	margin: 0px;
-}
 .app {
 	display: flex;
 	flex-direction: column;
 	padding: 0px;
+	margin: 0px;
 	align-content: center;
-}
-.banner{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: 250px;
-	padding-top: 25px;
+	min-height: 100vh;
 }
 
-.placeholders{
-	display: flex;
-	flex-direction: row;
-	padding: 50px;
-	align-content: center;
-	justify-content: center;
-	gap: 10px;
-	flex-wrap: wrap;
-	
-}
 
 
