@@ -1,16 +1,18 @@
 .header {
-	background-color: rgb(255, 213, 213);
+	background-color: rgb(255, 239, 248);
 	text-align: center; 
-	font-size: 30px;
+	font-size: 20px;
+	text-align: center;
 	color: white;
-	font-family: Helvetica;
 	margin: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	
+	font-family: 'Josefin Sans';
+
 }
 
 .header > div{
-	padding: 30px;
+	padding: 10px;
 }
+
