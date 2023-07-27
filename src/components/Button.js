@@ -3,7 +3,7 @@ import './Button.css';
 const Button = (props) => {
 	return (
 		<div onClick={()=>{console.log("ark")}} className='button'>
-        		{props.name}
+        		<p className="text">{props.name}</p>
         	</div>
         
 	)
