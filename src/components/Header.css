@@ -18,4 +18,6 @@
 
 .logo{
 	margin-right: 75%;
+	position: absolute;
+	font-size: 2 rem;
 }
