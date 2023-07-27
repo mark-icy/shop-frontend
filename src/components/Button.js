@@ -2,9 +2,9 @@ import './Button.css';
 
 const Button = (props) => {
 	return (
-		<div className='button'>
-        {props.name}
-        </div>
+		<button className='button'>
+        		{props.name}
+        	</button>
         
 	)
 }
