@@ -5,6 +5,7 @@ import Footer from "./components/Footer.js";
 import Banner from "./components/Banner.js";
 import Login from "./components/Login.js";
 
+
 function App(){
   return (
 	<div className="App">
@@ -12,6 +13,7 @@ function App(){
 	  	<Banner/>
 		<Login/>
 	  	<Items/>
+		
             	<Footer/>
 	</div>
   );
