@@ -9,7 +9,9 @@
     background-color: beige;
     opacity: 1;
     border-radius: 10px;
+  
 }
+
 .login-form{
 }
 
@@ -31,13 +33,15 @@
 
 .login-form{
     margin-bottom: 10px;
-   
+    opacity: .5;
 }
 .password-form{
     margin-bottom: 10px;
+    opacity: .5;
+    /* forms this how u edit them */
 }
 
-.button{
+.login-button{
     background-color: rgb(245, 220, 243);
     border-radius: 10px;
     border-color: rgb(245, 220, 243);
@@ -47,6 +51,7 @@
     margin: 10px;
     max-width: 150px;
     width: 25%;
+    opacity: .5;
 }
 .text{
     font-family: Josefin Sans;

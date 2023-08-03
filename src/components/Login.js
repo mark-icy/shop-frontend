@@ -1,9 +1,9 @@
 import './Login.css';
 import Button from './Button';
 
-const Login = () => {
+const Login = (props) => {
 	return (
-        <div className='login'>
+        <div className='login' style={{display:props.Login}}>
 			<div className='login-forms'>
             <div className= "login-form">
 				<form>

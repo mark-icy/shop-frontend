@@ -4,14 +4,18 @@ import Items from "./components/Items.js";
 import Footer from "./components/Footer.js";
 import Banner from "./components/Banner.js";
 import Login from "./components/Login.js";
+import React, { useState } from "react";
 
 
 function App(){
+	//pseudocode
+	const[login, setLogin] = useState("none");
+
   return (
 	<div className="App">
-		<Header/>
+		<Header setLogin={setLogin} login={login}/>
 	  	<Banner/>
-		<Login/>
+		<Login login={login}/>
 	  	<Items/>
 		
             	<Footer/>
